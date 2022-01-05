@@ -7,7 +7,7 @@
   <% if enhanced_cart.length === 0 %>
     <h2>Oh no! Looks like your cart is empty!</h2>
     <br>
-    <a href="products">Return to main menu</a>
+    <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
   <% else %>
 
     <div class="panel panel-default items">

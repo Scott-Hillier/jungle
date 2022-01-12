@@ -5,9 +5,9 @@
 <%= form_for :user, url: '/users' do |f| %>
   <div class="signup">
 
-    <div>Name: <div></div><%= f.text_field :name %></div>
+    <div>Name: <div></div class='signup-name'><%= f.text_field :name %></div>
     <br>
-    <div>Email: <div></div><%= f.text_field :email %></div>
+    <div>Email: <div></div class='signup-email'><%= f.text_field :email %></div>
     <br>
     <div>Password: <div></div><%= f.password_field :password %></div>
     <br>
